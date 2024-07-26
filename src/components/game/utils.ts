@@ -9,7 +9,11 @@ export const shuffleArray = (array: Card[]): Card[] => {
 };
 
 export const generateCards = (): Card[] => {
-    const images = ["/images/edison.jpg", "/images/einstein.jpg"];
+    const images = [
+        "/images/edison.jpg",
+        "/images/einstein.jpg",
+        "/images/kafka.jpg",
+    ];
 
     const cards = images.reduce((acc: Card[], image, index) => {
         acc.push({ id: index * 2, image, matched: false });
