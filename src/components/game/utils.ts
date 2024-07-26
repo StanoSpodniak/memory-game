@@ -13,6 +13,7 @@ export const generateCards = (): Card[] => {
         "/images/edison.jpg",
         "/images/einstein.jpg",
         "/images/kafka.jpg",
+        "/images/dostoevsky.jpg",
     ];
 
     const cards = images.reduce((acc: Card[], image, index) => {
